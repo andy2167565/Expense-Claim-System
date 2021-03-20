@@ -29,7 +29,8 @@ Use [Google Form](https://www.google.com/forms/about/) to collect expense claims
     │   └── summary                                 # Store CSV summary of claims for each month and each audit period
     └── Response_Extraction.py                      # Main Python script
 
-## Solution Structure
+## Solution Architecture
+![Solution Architecture Illustration](https://github.com/andy2167565/Expense-Claim-System/blob/335ed46701aa741a23c5adb1a4e5fd4a49ab5344/approach_1.2.png)
 1. Use Google Form to collect applicants’ responses, receipts and evidences of exchange rate in form owner’s Google Drive. 
       *	The responses are stored in Google Spreadsheet for extraction.
       *	The receipts and evidences of exchange rate are placed in a folder and separated by item number respectively.
